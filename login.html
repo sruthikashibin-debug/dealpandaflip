@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - DealPanda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="login.css">
+    <meta name="title" content="DealPanda - Best Flipkart Affiliate Deals & Cashback 2025">
+    <meta name="description" content="Get best Flipkart deals, exclusive coupon codes and cashback offers. Save up to 80% on mobiles, laptops, electronics, fashion & more. Start saving today!">
+    <meta name="keywords" content="Flipkart deals, affiliate marketing, best deals, coupon codes, cashback offers, Flipkart coupons, mobile deals, laptop offers, electronics sale, fashion discounts, online shopping deals">
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">
+        <img src="logo-4.png" alt="DealPanda" class="logo-img">
+    </div>
+    
+    <!-- Hamburger Menu Button - Only visible on mobile -->
+    <button class="navbar-toggler" id="navbarToggler">
+        <i class="bi bi-list"></i>
+    </button>
+    
+    <!-- Navigation Links - Visible on desktop, collapsible on mobile -->
+    <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active"><i class="bi bi-house-fill"></i> Home</a></li>
+        <li><a href="products.html"><i class="bi bi-grid-3x3-gap-fill"></i> All Products</a></li>
+        <li><a href="flipkart-store.html"><i class="bi bi-shop"></i> Flipkart Store</a></li>
+        <li><a href="login.html"><i class="bi bi-person-circle"></i> Login</a></li>
+    </ul>
+</nav>
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <div class="login-icon">
+                    <i class="bi bi-person-circle"></i>
+                </div>
+                <h2>Welcome Back</h2>
+                <p>Sign in to your DealPanda account</p>
+            </div>
+
+            <form id="loginForm" class="login-form">
+                <div class="input-group">
+                    <div class="input-icon">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <input type="email" id="email" placeholder="Email address" required>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-icon">
+                        <i class="bi bi-lock-fill"></i>
+                    </div>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <button type="button" class="toggle-password" id="togglePassword">
+                        <i class="bi bi-eye-slash-fill"></i>
+                    </button>
+                </div>
+
+                <div class="form-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="rememberMe">
+                        <span class="checkmark"></span>
+                        <i class="bi bi-check-lg"></i>
+                        <span class="checkbox-text">Remember me</span>
+                    </label>
+                    <a href="#" class="forgot-link">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="login-btn" id="loginBtn">
+                    <i class="bi bi-box-arrow-in-right"></i> Sign In
+                </button>
+
+                <div class="divider">
+                    <span>Or continue with</span>
+                </div>
+
+                <div class="social-login">
+                    <button type="button" class="social-btn google">
+                        <i class="bi bi-google"></i>
+                        <span>Google</span>
+                    </button>
+                    <button type="button" class="social-btn facebook">
+                        <i class="bi bi-facebook"></i>
+                        <span>Facebook</span>
+                    </button>
+                    <button type="button" class="social-btn apple">
+                        <i class="bi bi-apple"></i>
+                        <span>Apple</span>
+                    </button>
+                </div>
+            </form>
+
+            <div class="signup-link">
+                <p>Don't have an account? <a href="signup.html">Create Account <i class="bi bi-arrow-right"></i></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="features-banner">
+        <div class="feature">
+            <div class="feature-icon"><i class="bi bi-shield-check"></i></div>
+            <div class="feature-text">
+                <h4>Secure Login</h4>
+                <p>256-bit SSL encryption</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon"><i class="bi bi-cash-stack"></i></div>
+            <div class="feature-text">
+                <h4>Exclusive Deals</h4>
+                <p>Get member-only offers</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon"><i class="bi bi-gift-fill"></i></div>
+            <div class="feature-text">
+                <h4>Welcome Bonus</h4>
+                <p>₹500 cashback on first order</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DealPanda</h3>
+                <p>Your 1 affiliate partner for Flipkart deals.</p>
+            </div>
+            <div class="footer-section">
+                <h4><i class="bi bi-link-45deg"></i> Quick Links</h4>
+                <a href="index.html"><i class="bi bi-house-door"></i> Home</a>
+                <a href="products.html"><i class="bi bi-grid-3x3-gap"></i> All Products</a>
+                <a href="flipkart-store.html"><i class="bi bi-shop"></i> Flipkart Store</a>
+                <a href="login.html"><i class="bi bi-person-circle"></i> Login</a>
+            </div>
+            <div class="footer-section">
+                <h4><i class="bi bi-tags"></i> Categories</h4>
+                <a href="products.html"><i class="bi bi-phone"></i> Mobiles</a>
+                <a href="products.html"><i class="bi bi-laptop"></i> Laptops</a>
+                <a href="products.html"><i class="bi bi-headphones"></i> Electronics</a>
+                <a href="products.html"><i class="bi bi-bag-heart"></i> Fashion</a>
+            </div>
+            <div class="footer-section">
+                <h4><i class="bi bi-share"></i> Follow Us</h4>
+                <div class="social-links">
+                    <span><i class="bi bi-facebook"></i> Facebook</span>
+                    <span><i class="bi bi-instagram"></i> Instagram</span>
+                    <span><i class="bi bi-twitter-x"></i> Twitter</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 DealPanda — Affiliate Partner for Flipkart. We earn commissions for qualified purchases.</p>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
